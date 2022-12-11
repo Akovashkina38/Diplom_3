@@ -36,7 +36,7 @@ public class AccountTest {
     }
 
     @Test
-    @DisplayName("Transition user to constructor")
+    @DisplayName("Переход по клику на «Конструктор»")
     public void transitionToConstructor() {
         homePage = open(HomePage.URL, HomePage.class);
         String url = homePage.clickAccountButton()
@@ -48,7 +48,7 @@ public class AccountTest {
     }
 
     @Test
-    @DisplayName("Transition user to logo burger")
+    @DisplayName("Переход по клику на логотип Stellar Burgers")
     public void transitionToLogoBurger() {
         homePage = open(HomePage.URL, HomePage.class);
         String url = homePage.clickAccountButton()
@@ -60,7 +60,7 @@ public class AccountTest {
     }
 
     @Test
-    @DisplayName("Logout user by logout button")
+    @DisplayName("Выход по кнопке «Выйти» в личном кабинете")
     public void logoutUserByLogoutButton() {
         homePage = open(HomePage.URL, HomePage.class);
         homePage.clickAccountButton()

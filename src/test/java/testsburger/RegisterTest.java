@@ -42,7 +42,7 @@ public class RegisterTest {
     }
 
     @Test
-    @DisplayName("Register user by invalid password")
+    @DisplayName("Регистрация пользователя с неверным паролем")
     public void registerUserByInvalidPassword() {
         boolean isDisplayed = homePage.clickLoginButton()
                 .clickRegisterLink()
@@ -53,7 +53,7 @@ public class RegisterTest {
     }
 
     @Test
-    @DisplayName("Register user is displayed password error")
+    @DisplayName("Регистрация пользователя с ошибкой пароля")
     public void registerUserIsDisplayedPasswordError() {
         boolean isDisplayed = homePage.clickLoginButton()
                 .clickRegisterLink()

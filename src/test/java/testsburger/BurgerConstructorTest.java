@@ -17,7 +17,7 @@ public class BurgerConstructorTest {
     }
 
     @Test
-    @DisplayName("Navigate to last bun ingredient")
+    @DisplayName("Переход к Булке")
     public void navigateToBunIngredient() {
         boolean isDisplayed = homePage.findBunIngredient();
 
@@ -25,7 +25,7 @@ public class BurgerConstructorTest {
     }
 
     @Test
-    @DisplayName("Navigate to last sauce ingredient")
+    @DisplayName("Переход к соусу")
     public void navigateToSauceIngredient() {
         boolean isDisplayed = homePage.findSauceIngredient();
 
@@ -33,7 +33,7 @@ public class BurgerConstructorTest {
     }
 
     @Test
-    @DisplayName("Navigate to last filling ingredient")
+    @DisplayName("Переход к начинкам")
     public void navigateToFillingIngredient() {
         boolean isDisplayed = homePage.findFillingIngredient();
 
