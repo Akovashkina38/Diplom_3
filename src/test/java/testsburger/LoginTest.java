@@ -25,7 +25,6 @@ public class LoginTest {
                 .clickRegisterLink()
                 .fillRegisterForm(user.getName(), user.getEmail(), user.getPassword())
                 .clickRegisterButton(Condition.hidden);
-        homePage = null;
     }
 
     @After
