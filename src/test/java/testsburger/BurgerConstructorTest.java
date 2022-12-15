@@ -13,6 +13,7 @@ public class BurgerConstructorTest {
 
     @Before
     public void setUp() {
+
         homePage = open(HomePage.URL, HomePage.class);
     }
 
